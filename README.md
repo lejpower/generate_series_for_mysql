@@ -4,7 +4,7 @@ procedure for generating random data for test.
 ### making the procedure
 ```
 mysql% echo "create database Juni_test;" | mysql
-mysql% cat Jgenerate_series.sql | mysql
+mysql% cat Jgenerate_series_procedure.sql | mysql
 ```
 
 ### execute
