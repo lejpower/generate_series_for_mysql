@@ -7,24 +7,24 @@ mysql% echo "create database Juni_test;" | mysql
 mysql% cat Jgenerate_series_procedure.sql | mysql Juni_test
 ```
 
-### execute
+### execute (inside MySQL prompt)
 ```
 CALL Jgenerate_series(${NUMBER});
 
 (e.g. CALL Jgenerate_series(10);)
 ```
 
-### drop procedure
+### drop procedure (inside MySQL prompt)
 ```
 drop procedure Jgenerate_series;
 ```
 
-### data check
+### data check (inside MySQL prompt)
 ```
 select * from Jgenerate_series_tbl;
 ```
 
-### sample data
+### sample data (inside MySQL prompt)
 ```
 mysql> select * from generate_series_tbl;
 +------+------------+---------+-------------------------+----------------------------------+
