@@ -8,9 +8,10 @@ mysql% cat Jgenerate_series.sql | mysql
 ```
 
 ### execute
-CALL Jgenerate_series(${NUMBER});
 ```
-e.g. CALL Jgenerate_series(10);
+CALL Jgenerate_series(${NUMBER});
+
+(e.g. CALL Jgenerate_series(10);)
 ```
 
 ### data check
