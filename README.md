@@ -14,6 +14,11 @@ CALL Jgenerate_series(${NUMBER});
 (e.g. CALL Jgenerate_series(10);)
 ```
 
+### drop procedure
+```
+drop procedure Jgenerate_series;
+```
+
 ### data check
 ```
 select * from Jgenerate_series_tbl;
