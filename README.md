@@ -3,7 +3,8 @@ procedure for generating random data for test.
 
 ### making the procedure
 ```
-mysql% cat Jgenerate_series_procedure.sql | mysql
+mysql% echo "create database Jgenerate_series_DB;" | mysql
+mysql% cat Jgenerate_series_procedure.sql | mysql Jgenerate_series_DB
 ```
 
 ### execute (inside MySQL prompt)
